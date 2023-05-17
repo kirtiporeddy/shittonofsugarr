@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Crimson+Text:ital@1&family=Oranienbaum&family=Pinyon+Script&family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Crimson+Text:ital@1&family=Oranienbaum&family=Pinyon+Script&family=Poppins:wght@300&display=swap" rel="stylesheet">
+   
+
+    <style>
+        
+
+        .flex-item {
+            flex: 1;
+            height: 485px;
+        }
+
+        .flex-container {
+            display: flex;
+            width: 100%;
+            height: 485px;
+            margin: 0 5px;
+            flex-wrap: wrap;
+        }
+
+        .flex-item {
+            flex: 1;
+            height: 485px;
+        }
+
+        .box1 {
+          background-image: url(../nycdata/images/711.gif);
+            flex: 2.2;
+        }
+
+        .box2 {
+          
+            flex: 1;
+        }
+
+        .box3 {
+         
+            flex: 2.2;
+        }
+
+        .box4 {
+          top: 159px;
+    position: relative;
+            flex: 2;
+        }
+        
+
+       
+
+        
+
+
+
+
+        .heading {
+  display: flex;
+  align-items: center;
+  margin-top: -17px;
+}
+
+body {
+  background-color: #FFFFF0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 9.6vw;
+  /*letter-spacing: -11.6px;*/
+  text-align: left;
+  margin-left: 21px;
+  margin-top: 9px;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+#h2 {
+  display: none;
+  font-size: 9.6vw !important;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif !important;
+}
+a:link { text-decoration: none !important;
+  color:black !important; 
+}
+
+
+
+h3 {
+  font-family: 'Poppins', sans-serif !important;
+  color:black !important;
+}
+
+.result {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif !important ;
+  }
+
+.packet img {
+  display: inline-block;
+  width: 100px !important;
+  height: 122px !important;
+  margin: 0 10px !important;
+  width: 97% !important;
+  max-width: 231px !important;
+  margin-left: 16px !important;
+}
+  .dotcom {
+  margin-left: -19px;
+  }
+
+  /* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #FFFFF0;
+  margin-top: -15px;
+  padding: none;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 14px;
+  text-decoration: none;
+  text-align: center;
+  margin: 1px;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  
+  color: black;
+ transform: scale(1.1); 
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  height: 28px !important;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0.1px;
+  text-align: center;
+  background-color: #FF8F8F;
+}
+
+.gif {
+    scale:1.5
+}
+
+gif {
+ 
+  background-image: url('../nycdata/images/711.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: playAnimation;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.gif img {
+  left: 39px;
+    top: 43px;
+    position: relative;
+    scale: 0.7;
+}
+
+h6 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 200px !important;
+  margin-top: 6px;
+ 
+}
+
+#calculateButton  {
+  background-color: #FF8F8F;
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif !important;
+  top: -54px;
+    position: relative;
+
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  height: 28px !important;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0.1px;
+  text-align: center;
+  background-color: #FF8F8F;
+}
+.flex-item box2 {
+
+position: relative;
+    top: 50%;
+    left: 13%;}
+
+h6 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 200px !important;
+  margin-top: 6px;
+ 
+}
+.arrow {
+position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+.m_button {
+    background-color: black;
+    border: none;
+    color: #FF8F8F;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-family: 'Poppins', sans-serif !important;
+    border-radius: 20px;
+}
+
+  
+@media (max-width: 600px) {
+      .flex-container {
+        flex-direction: column;
+      }
+    }
+
+    </style>
+
+<body>
+
+
+    <!-- Header -->
+    <div class="heading">
+      <h1> a sh*t ton of</h1>
+      <div class="packet">
+        <img src="../nycdata/images/suga.png" alt="Image">
+    </div>
+      <!-- <div id="h2">.com</div> -->
+      <div class="dotcom">
+      <h1>.com</h1>
+    </div>
+    </div>
+
+
+    
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="../nycdata/index.html"><button class="m_button"> Home</button> </a>
+  <a href="../trial4/index.html"><button class="m_button"> Sugar Consumption </button></a>
+  <a href="../711/index.html"><button class="m_button"> 7 Eleven</button></a>
+  <a href="../arbi/index.html"><button class="m_button"> Arby's </button></a>
+  <a href="../baskin/index.html"><button class="m_button"> Baskin Robbins</button></a>
+  <a href="../annie/index.html"><button class="m_button"> Auntie Annie's</button></a>
+</div>
+
+<div class="flex-container">
+
+        <div class="flex-container">
+            <div class="flex-item box1">
+                <div class="gif">
+                <img src="../nycdata/images/7logo.png">
+            </div>
+            </div>
+            <div class="flex-item box2">
+                <div class="arrow">
+                <img src="../nycdata/images/arrow.png">
+                </div>
+            </div>
+            <div class="flex-item box3">
+                <div class="sugardif">
+                    <img src="../nycdata/images/711sugar.gif">
+
+                </div>
+            </div>
+            <div class="flex-item box4">
+            <div class="calculations">
+                <button id="calculateButton"> Calculations from 7 Eleven's NYC Menu</button>
+                <div id="result" style="font-family:  'Poppins', sans-serif !important;">
+                  <p>Average amount of sugar:</p>
+                  <p>Highest amount of sugar:</p>
+                  <p>Lowest amount of sugar:</p>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+  <!-- Footer -->
+<div class="footer">
+  <h6>sourced from data.cityofnewyork.us</h6>
+</div>
+   <script src="script.js"></script>
+
+</body>
+
+</html>
